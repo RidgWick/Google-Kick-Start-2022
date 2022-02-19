@@ -9,11 +9,10 @@ public class Solution {
 
         Scanner in = new Scanner(System.in);
         long testCases = in.nextInt();
-        int N, M;
         for (int Case = 1; Case <= testCases; Case++) {
 
-            N = in.nextInt();
-            M = in.nextInt();
+            int N = in.nextInt();
+            int M = in.nextInt();
             int sumOfAllCandies = 0;
             
             for (int i = 0; i < N; ++i) {
